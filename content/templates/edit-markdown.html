@@ -1,0 +1,19 @@
+﻿<div>
+    <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#editor" role="tab" data-toggle="pill">Editor</a>
+        </li>
+        <li role="presentation">
+            <a href="#viewer" role="tab" data-toggle="pill">View</a>
+        </li>
+    </ul>
+    <hr />
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="editor">
+            <markdown-editor md-model="model"></markdown-editor>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="viewer">
+            <render-markdown render="model"></render-markdown>
+        </div>
+    </div>
+</div>
