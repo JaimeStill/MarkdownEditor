@@ -3,7 +3,7 @@
         return {
             restrict: 'EA',
             replace: true,
-            templateUrl: '/content/templates/markdown-editor.html',
+            templateUrl: '/MarkdownEditor/content/templates/markdown-editor.html',
             scope: {
                 mdModel: '='
             },

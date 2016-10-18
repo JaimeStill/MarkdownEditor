@@ -3,7 +3,7 @@
         return {
             restrict: 'EA',
             replace: true,
-            templateUrl: '/content/templates/edit-markdown.html'
+            templateUrl: '/MarkdownEditor/content/templates/edit-markdown.html'
         };
     };
 
