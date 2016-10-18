@@ -3,7 +3,7 @@
         return {
             restrict: 'EA',
             replace: true,
-            templateUrl: '/Content/templates/render-markdown.html',
+            templateUrl: '/content/templates/render-markdown.html',
             scope: {
                 render: '='
             },
